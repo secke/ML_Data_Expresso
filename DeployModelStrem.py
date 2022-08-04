@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 
-model_predictor=pickle.load(open('/home/secke/Documents/Expresso/notre_model_HGBClassifier.sav','rb'))
+model_predictor=pickle.load(open('notre_model_HGBClassifier.sav','rb'))
 colonnes=['REGION', 'TENURE', 'MONTANT', 'FREQUENCE_RECH', 'REVENUE',
        'ARPU_SEGMENT', 'FREQUENCE', 'ON_NET', 'ORANGE', 'MRG', 'REGULARITY',
        'TOP_PACK', 'FREQ_TOP_PACK']
