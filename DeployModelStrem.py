@@ -20,9 +20,9 @@ def recup_data_client(data_input):
        y_predit=model_predictor.predict(tab_inputs)
        #print(y_predit[0])
        if (y_predit[0]==0):
-              return "Le Client Ne se désabonne Pas"
+              return "LE CLIENT NE SE DÉSABONNE PAS"
        else:
-              return "Le Client Va se Désabonner"
+              return "LE CLIENT VA SE DÉSABONNER"
 
 def main():
        imageExpres=Image.open('imExpresso.jpg')
